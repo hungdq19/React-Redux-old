@@ -9,7 +9,7 @@ Navbar.propTypes = {
 function Navbar({ todos }) {
   return (
     <div className="navbar">
-      <h1>My App for Me</h1>
+      <h1>DANH SÁCH CÔNG VIỆC HÔM NAY</h1>
       <ul>
         <li>Home</li>
         <li>About</li>
