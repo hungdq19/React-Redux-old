@@ -11,6 +11,7 @@ TodoForm.propTypes = {
 function TodoForm({ addTodo, todos }) {
   const [formdata, setFormdata] = useState("");
   const handleSubmit = (e) => {
+    if (!formdata.trim()) return;
     e.preventDefault();
     addTodo({
       id: uuidv4(),
